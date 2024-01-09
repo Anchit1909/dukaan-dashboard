@@ -1,4 +1,4 @@
-  <img alt="Dukaan Dashboard" src="/public/DashboardPage.png">
+  <img alt="Dukaan Dashboard Clone" src="/public/DashboardPage.png">
     <h1 align="center">Dukaan Dashboard</h1>
 
 <p align="center">
