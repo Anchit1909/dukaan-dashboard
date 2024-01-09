@@ -22,21 +22,22 @@ export function Sidebar() {
             size={"icon"}
             className="bg-black/10 hover:bg-black/30"
           >
-            <ChevronDown />
+            <ChevronDown className="text-white" />
           </Button>
         </div>
         <SidebarLinks />
       </div>
-      <div className="flex w-full flex-row items-center justify-center gap-4 rounded bg-[#353C53] px-1 py-2">
+      <div className="flex w-[224px] flex-row gap-4 rounded bg-[#353C53] px-3 py-[6px]">
         <Button
           variant={"ghost"}
           className="bg-black/10 text-white hover:bg-black/30"
           size={"icon"}
         >
-          <Wallet className="h-5 w-5 text-white" />
+          <Wallet className="text-white" size="20px" />
         </Button>
         <div className="flex flex-col">
-          <p className="text-sm text-white">Available Credits</p>
+          <p className="text-[13px] text-white/80">Available Credits</p>
+          <p className="text-base font-medium text-white">222.10</p>
         </div>
       </div>
     </nav>

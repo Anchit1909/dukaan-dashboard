@@ -5,9 +5,9 @@ import { HelpCircle, Search } from "lucide-react";
 export const Header = () => {
   return (
     <div className="flex flex-row items-center justify-between border-b border-b-stone-200 bg-white p-3">
-      <div className="flex flex-row items-center gap-3">
-        <p className="pl-4 text-[#1A181E]">Payments</p>
-        <div className="flex flex-row items-center gap-1">
+      <div className="flex flex-row items-center justify-center gap-3 pl-4">
+        <p className="text-[#1A181E]">Payments</p>
+        <div className="mt-[2px] flex flex-row items-center gap-1">
           <HelpCircle size="14px" className="text-muted-foreground" />
           <p className="text-xs text-muted-foreground">How it works</p>
         </div>

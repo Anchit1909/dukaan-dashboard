@@ -107,8 +107,8 @@ export const links: {
     name: "Home",
     icon: (
       <svg
-        width="18"
-        height="18"
+        width="20"
+        height="20"
         viewBox="0 0 18 18"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +126,7 @@ export const links: {
     name: "Orders",
     icon: (
       <svg
-        width="18"
+        width="20"
         height="20"
         viewBox="0 0 18 20"
         fill="none"
