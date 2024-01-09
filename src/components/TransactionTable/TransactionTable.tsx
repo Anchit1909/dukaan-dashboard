@@ -17,8 +17,8 @@ import { transactionData } from "@/data/Data";
 interface TransactionData {
   ID: string;
   Date: string;
-  Amount1: string;
-  Amount2: string;
+  OrderAmount: string;
+  TransactionFees: string;
 }
 
 export const TransactionTable = () => {
@@ -42,12 +42,14 @@ export const TransactionTable = () => {
         <TableBody>
           {data.map((row: TransactionData, index: number) => (
             <TableRow key={index}>
-              <TableCell className="font-medium text-blue-700">
+              <TableCell className="font-medium text-[#146EB4]">
                 {row.ID}
               </TableCell>
               <TableCell>{row.Date}</TableCell>
-              <TableCell className="text-center">{row.Amount1}</TableCell>
-              <TableCell className="text-right">{row.Amount2}</TableCell>
+              <TableCell className="text-center">{row.OrderAmount}</TableCell>
+              <TableCell className="text-right">
+                {row.TransactionFees}
+              </TableCell>
             </TableRow>
           ))}
         </TableBody>
