@@ -1,10 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { overviewValues as values } from "@/data/Data";
 
 export const Overview = () => {
-  const values = {
-    orders: "231",
-    amount: "₹23,92,312.19",
-  };
   return (
     <div className="max-w-screen-2xl p-6">
       <div className="mb-5 flex flex-row items-center justify-between">
