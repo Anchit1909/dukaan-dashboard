@@ -1,5 +1,5 @@
-import { Header } from "@/components/Header";
-import { Overview } from "@/components/Overview";
+import { Header } from "@/components/Navigation/Header";
+import { Overview } from "@/components/Overview/Overview";
 import { Sidebar } from "@/components/Sidebar/Sidebar";
 import { TransactionTable } from "@/components/TransactionTable/TransactionTable";
 
