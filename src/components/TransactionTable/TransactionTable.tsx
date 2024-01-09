@@ -25,7 +25,7 @@ export const TransactionTable = () => {
   const [data, setData] = useState<TransactionData[]>(transactionData);
 
   return (
-    <div className="payment-table mx-6 min-w-[300px] rounded bg-white p-2">
+    <div className="mx-6 min-w-[300px] rounded bg-white p-2 mb-8">
       <TableOperations />
       <Table>
         <TableHeader>
