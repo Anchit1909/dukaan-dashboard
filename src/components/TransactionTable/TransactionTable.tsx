@@ -29,13 +29,16 @@ export const TransactionTable = () => {
       <TableOperations />
       <Table>
         <TableHeader>
-          <TableRow className="bg-stone-100 text-gray-600">
+          <TableRow className="bg-stone-100 font-medium text-[#4D4D4D]">
             <TableHead>Order ID</TableHead>
             <TableHead>Order Date</TableHead>
             <TableHead className="text-center">Order Amount</TableHead>
             <TableHead className="text-right">
               Transaction fees
-              <Info className="ml-1 inline text-sm text-[#808080]" />
+              <Info
+                className="mb-[2px] ml-1 inline text-sm text-[#808080]"
+                size="14px"
+              />
             </TableHead>
           </TableRow>
         </TableHeader>
@@ -45,9 +48,11 @@ export const TransactionTable = () => {
               <TableCell className="font-medium text-[#146EB4]">
                 {row.ID}
               </TableCell>
-              <TableCell>{row.Date}</TableCell>
-              <TableCell className="text-center">{row.OrderAmount}</TableCell>
-              <TableCell className="text-right">
+              <TableCell className="text-[#1A181E]">{row.Date}</TableCell>
+              <TableCell className="text-center text-[#1A181E]">
+                {row.OrderAmount}
+              </TableCell>
+              <TableCell className="text-right text-[#1A181E]">
                 {row.TransactionFees}
               </TableCell>
             </TableRow>

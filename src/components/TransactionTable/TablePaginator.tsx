@@ -20,7 +20,7 @@ export const TablePaginator = () => {
   }
   return (
     <>
-      <Pagination className="collapse mt-5 flex flex-wrap items-center justify-center sm:visible">
+      <Pagination className="collapse mt-5 flex flex-wrap items-center justify-center text-[#4D4D4D] sm:visible">
         <PaginationContent>
           <PaginationItem>
             <PaginationPrevious href="#" className="border" />
@@ -55,7 +55,7 @@ export const TablePaginator = () => {
       </Pagination>
 
       {/* Mobile Pagination */}
-      <Pagination className="mt-5 flex flex-wrap items-center justify-center sm:collapse">
+      <Pagination className="mt-5 flex flex-wrap items-center justify-center text-[#4D4D4D] sm:collapse">
         <PaginationContent>
           <PaginationItem>
             <PaginationPrevious href="#" className="border" />

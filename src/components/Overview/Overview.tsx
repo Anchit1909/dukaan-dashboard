@@ -50,7 +50,9 @@ export const Overview = () => {
           </CardContent>
         </Card>
       </div>
-      <h2 className="mt-6 text-[20px]">Transactions | This Month</h2>
+      <h2 className="mt-6 text-[20px] font-medium">
+        Transactions | This Month
+      </h2>
     </div>
   );
 };
