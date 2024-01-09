@@ -1,3 +1,4 @@
+import Footer from "@/components/Navigation/Footer";
 import { Header } from "@/components/Navigation/Header";
 import { Overview } from "@/components/Overview/Overview";
 import { Sidebar } from "@/components/Sidebar/Sidebar";
@@ -11,6 +12,7 @@ export default function Home() {
         <Header />
         <Overview />
         <TransactionTable />
+        <Footer />
       </div>
     </main>
   );

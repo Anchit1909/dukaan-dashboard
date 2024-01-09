@@ -50,7 +50,7 @@ export const TransactionTable = () => {
   }
 
   return (
-    <div className="mx-6 min-w-[300px] rounded bg-white p-2 mb-8">
+    <div className="mx-6 min-w-[300px] rounded bg-white p-2 mb-4">
       <TableOperations />
       <Table>
         <TableHeader>
