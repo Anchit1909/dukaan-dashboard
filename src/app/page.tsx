@@ -1,6 +1,6 @@
 import { Header } from "@/components/Header";
 import { Overview } from "@/components/Overview";
-import { Sidebar } from "@/components/Sidebar";
+import { Sidebar } from "@/components/Sidebar/Sidebar";
 import { TransactionTable } from "@/components/TransactionTable/TransactionTable";
 
 export default function Home() {
