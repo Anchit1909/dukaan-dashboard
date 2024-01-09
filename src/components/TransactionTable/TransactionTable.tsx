@@ -12,6 +12,7 @@ import {
 import { TableOperations } from "./TableOperations";
 import { TablePaginator } from "./TablePaginator";
 import { Info } from "lucide-react";
+import { transactionData } from "@/data/Data";
 
 interface TransactionData {
   ID: string;
@@ -21,98 +22,7 @@ interface TransactionData {
 }
 
 export const TransactionTable = () => {
-  const [data, setData] = useState<TransactionData[]>([
-    {
-      ID: "#271209",
-      Date: "7 July, 2023",
-      Amount1: "₹1,278.23",
-      Amount2: "₹22",
-    },
-    {
-      ID: "#281209",
-      Date: "7 July, 2023",
-      Amount1: "₹1,278.23",
-      Amount2: "₹22",
-    },
-    {
-      ID: "#281209",
-      Date: "7 July, 2023",
-      Amount1: "₹1,278.23",
-      Amount2: "₹22",
-    },
-    {
-      ID: "#281209",
-      Date: "7 July, 2023",
-      Amount1: "₹1,278.23",
-      Amount2: "₹22",
-    },
-    {
-      ID: "#281209",
-      Date: "7 July, 2023",
-      Amount1: "₹1,278.23",
-      Amount2: "₹22",
-    },
-    {
-      ID: "#281209",
-      Date: "7 July, 2023",
-      Amount1: "₹1,278.23",
-      Amount2: "₹22",
-    },
-    {
-      ID: "#281209",
-      Date: "7 July, 2023",
-      Amount1: "₹1,278.23",
-      Amount2: "₹22",
-    },
-    {
-      ID: "#281209",
-      Date: "7 July, 2023",
-      Amount1: "₹1,278.23",
-      Amount2: "₹22",
-    },
-    {
-      ID: "#281209",
-      Date: "7 July, 2023",
-      Amount1: "₹1,278.23",
-      Amount2: "₹22",
-    },
-    {
-      ID: "#281209",
-      Date: "7 July, 2023",
-      Amount1: "₹1,278.23",
-      Amount2: "₹22",
-    },
-    {
-      ID: "#281209",
-      Date: "7 July, 2023",
-      Amount1: "₹1,278.23",
-      Amount2: "₹22",
-    },
-    {
-      ID: "#281209",
-      Date: "7 July, 2023",
-      Amount1: "₹1,278.23",
-      Amount2: "₹22",
-    },
-    {
-      ID: "#281209",
-      Date: "7 July, 2023",
-      Amount1: "₹1,278.23",
-      Amount2: "₹22",
-    },
-    {
-      ID: "#281209",
-      Date: "7 July, 2023",
-      Amount1: "₹1,278.23",
-      Amount2: "₹22",
-    },
-    {
-      ID: "#281209",
-      Date: "7 July, 2023",
-      Amount1: "₹1,278.23",
-      Amount2: "₹22",
-    },
-  ]);
+  const [data, setData] = useState<TransactionData[]>(transactionData);
 
   return (
     <div className="payment-table mx-6 min-w-[300px] rounded bg-white p-2">

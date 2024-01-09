@@ -5,6 +5,99 @@ export const overviewValues = {
   amount: "₹23,92,312.19",
 };
 
+export const transactionData = [
+  {
+    ID: "#271209",
+    Date: "7 July, 2023",
+    Amount1: "₹1,278.23",
+    Amount2: "₹22",
+  },
+  {
+    ID: "#281209",
+    Date: "7 July, 2023",
+    Amount1: "₹1,278.23",
+    Amount2: "₹22",
+  },
+  {
+    ID: "#281209",
+    Date: "7 July, 2023",
+    Amount1: "₹1,278.23",
+    Amount2: "₹22",
+  },
+  {
+    ID: "#281209",
+    Date: "7 July, 2023",
+    Amount1: "₹1,278.23",
+    Amount2: "₹22",
+  },
+  {
+    ID: "#281209",
+    Date: "7 July, 2023",
+    Amount1: "₹1,278.23",
+    Amount2: "₹22",
+  },
+  {
+    ID: "#281209",
+    Date: "7 July, 2023",
+    Amount1: "₹1,278.23",
+    Amount2: "₹22",
+  },
+  {
+    ID: "#281209",
+    Date: "7 July, 2023",
+    Amount1: "₹1,278.23",
+    Amount2: "₹22",
+  },
+  {
+    ID: "#281209",
+    Date: "7 July, 2023",
+    Amount1: "₹1,278.23",
+    Amount2: "₹22",
+  },
+  {
+    ID: "#281209",
+    Date: "7 July, 2023",
+    Amount1: "₹1,278.23",
+    Amount2: "₹22",
+  },
+  {
+    ID: "#281209",
+    Date: "7 July, 2023",
+    Amount1: "₹1,278.23",
+    Amount2: "₹22",
+  },
+  {
+    ID: "#281209",
+    Date: "7 July, 2023",
+    Amount1: "₹1,278.23",
+    Amount2: "₹22",
+  },
+  {
+    ID: "#281209",
+    Date: "7 July, 2023",
+    Amount1: "₹1,278.23",
+    Amount2: "₹22",
+  },
+  {
+    ID: "#281209",
+    Date: "7 July, 2023",
+    Amount1: "₹1,278.23",
+    Amount2: "₹22",
+  },
+  {
+    ID: "#281209",
+    Date: "7 July, 2023",
+    Amount1: "₹1,278.23",
+    Amount2: "₹22",
+  },
+  {
+    ID: "#281209",
+    Date: "7 July, 2023",
+    Amount1: "₹1,278.23",
+    Amount2: "₹22",
+  },
+];
+
 export const links: {
   name: string;
   icon: React.ReactNode;
