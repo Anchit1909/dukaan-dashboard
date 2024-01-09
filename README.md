@@ -20,7 +20,7 @@ This project is made specifically for Dukaan Frontend assessment.
 
 ## Tech Stack
 
-- [Typescript] (https://www.typescriptlang.org/)
+- [Typescript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Shadcn ui](https://ui.shadcn.com/)
