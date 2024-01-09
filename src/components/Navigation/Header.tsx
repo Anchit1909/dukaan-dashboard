@@ -6,16 +6,16 @@ export const Header = () => {
   return (
     <div className="flex flex-row items-center justify-between border-b border-b-stone-200 bg-white p-3">
       <div className="flex flex-row items-center gap-3">
-        <p>Payments</p>
+        <p className="text-[#1A181E]">Payments</p>
         <div className="flex flex-row items-center gap-1">
           <HelpCircle size="14px" className="text-muted-foreground" />
           <p className="text-xs text-muted-foreground">How it works</p>
         </div>
       </div>
       <div className="relative flex flex-row items-center gap-1">
-        <Search size="18px" className="absolute left-3 text-muted-foreground" />
+        <Search size="18px" className="absolute left-4 text-muted-foreground" />
         <Input
-          className="mx-1 w-full rounded-lg border-none bg-stone-100 pl-8 text-sm md:w-[400px]"
+          className="mx-1 w-full rounded-lg border-none bg-stone-100 pl-9 text-sm font-normal placeholder-[#808080] md:w-[400px]"
           placeholder="Search features, tutorials, etc."
         />
       </div>
